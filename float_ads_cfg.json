@@ -1,0 +1,24 @@
+{
+	"ads": [{
+		"iconUrl": "https://joyoyay.github.io/float_ads_res/uphillracer.webp",
+		"storeUrl": "http://www.rustore.ru/catalog/app/com.joyoyay.uphillracer"
+	}, {
+		"iconUrl": "https://joyoyay.github.io/float_ads_res/HillsOfSteel.webp",
+		"storeUrl": "http://www.rustore.ru/catalog/app/com.joyoyay.HillsOfSteel"
+	}, {
+		"iconUrl": "https://joyoyay.github.io/float_ads_res/arrow_puzzle.webp",
+		"storeUrl": "http://www.rustore.ru/catalog/app/com.joyoyay.arrow.puzzle"
+	}, {
+		"iconUrl": "https://joyoyay.github.io/float_ads_res/ballsort3d.webp",
+		"storeUrl": "http://www.rustore.ru/catalog/app/com.joyoyay.ballsort3d"
+	}, {
+		"iconUrl": "https://joyoyay.github.io/float_ads_res/GoodsMatch.webp",
+		"storeUrl": "http://www.rustore.ru/catalog/app/com.joyoyay.GoodsMatch"
+	}, {
+		"iconUrl": "https://joyoyay.github.io/float_ads_res/ScrewPuzzle2.webp",
+		"storeUrl": "http://www.rustore.ru/catalog/app/com.joyoyay.ScrewPuzzle2"
+	}, {
+		"iconUrl": "https://joyoyay.github.io/float_ads_res/ScrewPuzzle3.webp",
+		"storeUrl": "http://www.rustore.ru/catalog/app/com.joyoyay.ScrewPuzzle3"
+	}]
+}
