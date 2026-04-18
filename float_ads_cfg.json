@@ -20,5 +20,14 @@
 	}, {
 		"iconUrl": "https://joyoyay.github.io/float_ads_res/ScrewPuzzle3.webp",
 		"storeUrl": "http://www.rustore.ru/catalog/app/com.joyoyay.ScrewPuzzle3"
+	}, {
+		"iconUrl": "https://joyoyay.github.io/float_ads_res/PipeConnect.webp",
+		"storeUrl": "https://www.rustore.ru/catalog/app/om.joyoyay.Pipe.Connect.Puzzle"
+	}, {
+		"iconUrl": "https://joyoyay.github.io/float_ads_res/HexaSort.webp",
+		"storeUrl": "https://www.rustore.ru/catalog/app/com.joyoyay.Hexa.Sort.Puzzle"
+	}, {
+		"iconUrl": "https://joyoyay.github.io/float_ads_res/RopeTangle.webp",
+		"storeUrl": "https://www.rustore.ru/catalog/app/com.joyoyay.Rope.Tangle.Puzzle"
 	}]
 }
