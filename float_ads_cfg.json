@@ -9,6 +9,27 @@
 		"iconUrl": "https://joyoyay.github.io/float_ads_res/arrow_puzzle.webp",
 		"storeUrl": "http://www.rustore.ru/catalog/app/com.joyoyay.arrow.puzzle"
 	}, {
+		"iconUrl": "https://joyoyay.github.io/float_ads_res/PipeConnect.webp",
+		"storeUrl": "https://www.rustore.ru/catalog/app/om.joyoyay.Pipe.Connect.Puzzle"
+	}, {
+		"iconUrl": "https://joyoyay.github.io/float_ads_res/Warships.webp",
+		"storeUrl": "https://www.rustore.ru/catalog/app/com.joyoyay.Blitz.Battle.Shooter.Modern.Warships"
+	}, {
+		"iconUrl": "https://joyoyay.github.io/float_ads_res/ArrowPuzzle3D.webp",
+		"storeUrl": "https://www.rustore.ru/catalog/app/com.joyoyay.arrows.escape.puzzle.maze.out.paths"
+	}, {
+		"iconUrl": "https://joyoyay.github.io/float_ads_res/ArrowEscape.webp",
+		"storeUrl": "https://www.rustore.ru/catalog/app/com.joyoyay.arrows.puzzle.escape.maze.out.free"
+	}, {
+		"iconUrl": "https://joyoyay.github.io/float_ads_res/HexaSort.webp",
+		"storeUrl": "https://www.rustore.ru/catalog/app/com.joyoyay.Hexa.Sort.Puzzle"
+	}, {
+		"iconUrl": "https://joyoyay.github.io/float_ads_res/RopeTangle.webp",
+		"storeUrl": "https://www.rustore.ru/catalog/app/com.joyoyay.Rope.Tangle.Puzzle"
+	}, {
+		"iconUrl": "https://joyoyay.github.io/float_ads_res/ScrewPuzzle3.webp",
+		"storeUrl": "http://www.rustore.ru/catalog/app/com.joyoyay.ScrewPuzzle3"
+	}, {
 		"iconUrl": "https://joyoyay.github.io/float_ads_res/ballsort3d.webp",
 		"storeUrl": "http://www.rustore.ru/catalog/app/com.joyoyay.ballsort3d"
 	}, {
@@ -17,17 +38,5 @@
 	}, {
 		"iconUrl": "https://joyoyay.github.io/float_ads_res/ScrewPuzzle2.webp",
 		"storeUrl": "http://www.rustore.ru/catalog/app/com.joyoyay.ScrewPuzzle2"
-	}, {
-		"iconUrl": "https://joyoyay.github.io/float_ads_res/ScrewPuzzle3.webp",
-		"storeUrl": "http://www.rustore.ru/catalog/app/com.joyoyay.ScrewPuzzle3"
-	}, {
-		"iconUrl": "https://joyoyay.github.io/float_ads_res/PipeConnect.webp",
-		"storeUrl": "https://www.rustore.ru/catalog/app/om.joyoyay.Pipe.Connect.Puzzle"
-	}, {
-		"iconUrl": "https://joyoyay.github.io/float_ads_res/HexaSort.webp",
-		"storeUrl": "https://www.rustore.ru/catalog/app/com.joyoyay.Hexa.Sort.Puzzle"
-	}, {
-		"iconUrl": "https://joyoyay.github.io/float_ads_res/RopeTangle.webp",
-		"storeUrl": "https://www.rustore.ru/catalog/app/com.joyoyay.Rope.Tangle.Puzzle"
 	}]
 }
