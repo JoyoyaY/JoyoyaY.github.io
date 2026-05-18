@@ -12,7 +12,7 @@
 		"iconUrl": "https://joyoyay.github.io/float_ads_res/PipeConnect.webp",
 		"storeUrl": "https://www.rustore.ru/catalog/app/om.joyoyay.Pipe.Connect.Puzzle"
 	}, {
-		"iconUrl": "https://joyoyay.github.io/float_ads_res/Warships.webp",
+		"iconUrl": "https://joyoyay.github.io/float_ads_res/Warships1_320x320.webp",
 		"storeUrl": "https://www.rustore.ru/catalog/app/com.joyoyay.Blitz.Battle.Shooter.Modern.Warships"
 	}, {
 		"iconUrl": "https://joyoyay.github.io/float_ads_res/ArrowPuzzle3D.webp",
@@ -20,6 +20,12 @@
 	}, {
 		"iconUrl": "https://joyoyay.github.io/float_ads_res/ArrowEscape.webp",
 		"storeUrl": "https://www.rustore.ru/catalog/app/com.joyoyay.arrows.puzzle.escape.maze.out.free"
+	}, {
+		"iconUrl": "https://joyoyay.github.io/float_ads_res/Sniper_320x320.webp",
+		"storeUrl": "https://www.rustore.ru/catalog/app/com.joyoyay.Stickman.Sniper.Shooter"
+	}, {
+		"iconUrl": "https://joyoyay.github.io/float_ads_res/Sudoku_320x320.webp",
+		"storeUrl": "https://www.rustore.ru/catalog/app/com.joyoyay.sudoku.puzzle.free.game.brain"
 	}, {
 		"iconUrl": "https://joyoyay.github.io/float_ads_res/HexaSort.webp",
 		"storeUrl": "https://www.rustore.ru/catalog/app/com.joyoyay.Hexa.Sort.Puzzle"
