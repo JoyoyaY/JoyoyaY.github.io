@@ -1,1 +1,14 @@
-{"com.joyoyay.Blitz.Battle.Shooter.Modern.Warships":{"interCDTime":60000,"isAppOnline":true},"com.joyoyay.Stickman.Sniper.Shooter":{"interCDTime":60000,"isAppOnline":true}}
+{
+	"com.joyoyay.Blitz.Battle.Shooter.Modern.Warships": {
+		"interCDTime": 60000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.Stickman.Sniper.Shooter": {
+		"interCDTime": 60000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.Rotate.Ring.Escape.Circle": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	}
+}
