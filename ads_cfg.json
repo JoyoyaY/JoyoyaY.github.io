@@ -1,13 +1,21 @@
 {
 	"com.joyoyay.Blitz.Battle.Shooter.Modern.Warships": {
-		"interCDTime": 60000,
+		"interCDTime": 30000,
 		"isAppOnline": true
 	},
 	"com.joyoyay.Stickman.Sniper.Shooter": {
-		"interCDTime": 60000,
+		"interCDTime": 30000,
 		"isAppOnline": true
 	},
 	"com.joyoyay.Rotate.Ring.Escape.Circle": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.nuts.bolts.puzzle.sort": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.color.link.pop": {
 		"interCDTime": 30000,
 		"isAppOnline": true
 	}
