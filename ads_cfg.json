@@ -18,5 +18,13 @@
 	"com.joyoyay.color.link.pop": {
 		"interCDTime": 30000,
 		"isAppOnline": true
+	},
+	"com.joyoyay.Pixel.Shooter3D": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.sand.block.box.color.puzzle": {
+		"interCDTime": 30000,
+		"isAppOnline": true
 	}
 }
