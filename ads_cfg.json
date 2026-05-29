@@ -26,5 +26,9 @@
 	"com.joyoyay.sand.block.box.color.puzzle": {
 		"interCDTime": 30000,
 		"isAppOnline": true
+	},
+	"com.joyoyay.arrows.puzzle.escape.maze.out.free": {
+		"interCDTime": 30000,
+		"isAppOnline": true
 	}
 }
