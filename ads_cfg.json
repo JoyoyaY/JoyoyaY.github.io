@@ -38,5 +38,13 @@
 	"com.joyoyay.Summer.Juice.Sort.Puzzle": {
 		"interCDTime": 30000,
 		"isAppOnline": true
+	},
+	"com.joyoyay.Robot.Arena.Fighting.Super.Mechs": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.happy.color.block": {
+		"interCDTime": 30000,
+		"isAppOnline": true
 	}
 }
