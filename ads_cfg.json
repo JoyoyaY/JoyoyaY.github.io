@@ -46,5 +46,9 @@
 	"com.joyoyay.happy.color.block": {
 		"interCDTime": 30000,
 		"isAppOnline": true
+	},
+	"com.joyoyay.royaldream.princess.escape.puzzle": {
+		"interCDTime": 30000,
+		"isAppOnline": true
 	}
 }
