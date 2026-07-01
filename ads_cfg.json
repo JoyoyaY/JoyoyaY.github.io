@@ -48,7 +48,7 @@
 		"isAppOnline": true
 	},
 	"com.joyoyay.arrow.puzzle": {
-		"interCDTime": 50000,
+		"interCDTime": 40000,
 		"isAppOnline": true
 	}
 }
