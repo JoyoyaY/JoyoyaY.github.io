@@ -43,6 +43,10 @@
 		"interCDTime": 30000,
 		"isAppOnline": true
 	},
+	"com.joyoyay.goodsmatch3d.find.puzzle": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
 	"com.joyoyay.royaldream.princess.escape.puzzle": {
 		"interCDTime": 30000,
 		"isAppOnline": true
