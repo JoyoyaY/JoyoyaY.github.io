@@ -54,5 +54,17 @@
 	"com.joyoyay.arrow.puzzle": {
 		"interCDTime": 40000,
 		"isAppOnline": true
+	},
+	"com.joyoyay.bead.art.maker.pixelgame": {
+		"interCDTime": 40000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.snake.escape.arrow.puzzle": {
+		"interCDTime": 40000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.bus.crowd.escape": {
+		"interCDTime": 40000,
+		"isAppOnline": true
 	}
 }
