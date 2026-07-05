@@ -12,6 +12,12 @@
 		"iconUrl": "https://joyoyay.github.io/float_ads_res/JuiceSort.webp",
 		"storeUrl": "http://www.rustore.ru/catalog/app/com.joyoyay.Summer.Juice.Sort.Puzzle"
 	}, {
+		"iconUrl": "https://joyoyay.github.io/float_ads_res/SnakeEscape.webp",
+		"storeUrl": "http://www.rustore.ru/catalog/app/com.joyoyay.snake.escape.arrow.puzzle"
+	}, {
+		"iconUrl": "https://joyoyay.github.io/float_ads_res/BBQMatser.webp",
+		"storeUrl": "http://www.rustore.ru/catalog/app/com.joyoyay.bbq.match.sort.puzzle"
+	}, {
 		"iconUrl": "https://joyoyay.github.io/float_ads_res/PrincessEscape.webp",
 		"storeUrl": "http://www.rustore.ru/catalog/app/com.joyoyay.royaldream.princess.escape.puzzle"
 	}, {
@@ -20,9 +26,6 @@
 	}, {
 		"iconUrl": "https://joyoyay.github.io/float_ads_res/BeadArtMaker.webp",
 		"storeUrl": "http://www.rustore.ru/catalog/app/com.joyoyay.bead.art.maker.pixelgame"
-	}, {
-		"iconUrl": "https://joyoyay.github.io/float_ads_res/SnakeEscape.webp",
-		"storeUrl": "http://www.rustore.ru/catalog/app/com.joyoyay.snake.escape.arrow.puzzle"
 	}, {
 		"iconUrl": "https://joyoyay.github.io/float_ads_res/BusEscape.webp",
 		"storeUrl": "http://www.rustore.ru/catalog/app/com.joyoyay.bus.crowd.escape"
