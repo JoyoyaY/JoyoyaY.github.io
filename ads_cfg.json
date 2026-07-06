@@ -70,5 +70,9 @@
 	"com.joyoyay.bbq.match.sort.puzzle": {
 		"interCDTime": 30000,
 		"isAppOnline": true
+	},
+	"com.joyoyay.wood.away.block.puzzle.color.jam": {
+		"interCDTime": 30000,
+		"isAppOnline": true
 	}
 }
