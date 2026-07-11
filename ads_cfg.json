@@ -74,5 +74,17 @@
 	"com.joyoyay.wood.away.block.puzzle.color.jam": {
 		"interCDTime": 30000,
 		"isAppOnline": true
+	},
+	"com.joyoyay.Winter.Racing": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.arrow.tap.out.escape": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.arrows.escape.puzzle": {
+		"interCDTime": 30000,
+		"isAppOnline": true
 	}
 }
