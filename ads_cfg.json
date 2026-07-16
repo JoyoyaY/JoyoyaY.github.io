@@ -1,1 +1,106 @@
-{"com.joyoyay.Blitz.Battle.Shooter.Modern.Warships":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.Stickman.Sniper.Shooter":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.Rotate.Ring.Escape.Circle":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.nuts.bolts.puzzle.sort":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.color.link.pop":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.Pixel.Shooter3D":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.sand.block.box.color.puzzle":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.arrows.puzzle.escape.maze.out.free":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.Summer.Juice.Sort.Puzzle":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.Robot.Arena.Fighting.Super.Mechs":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.happy.color.block":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.goodsmatch3d.find.puzzle":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.royaldream.princess.escape.puzzle":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.arrow.puzzle":{"interCDTime":40000,"isAppOnline":true},"com.joyoyay.bead.art.maker.pixelgame":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.snake.escape.arrow.puzzle":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.bus.crowd.escape":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.bbq.match.sort.puzzle":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.wood.away.block.puzzle.color.jam":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.Winter.Racing":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.arrow.tap.out.escape":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.arrows.escape.puzzle":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.airforcehit.power.attack":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.acrylic.nails.girl":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.beauty.race.girl":{"interCDTime":30000,"isAppOnline":true},"com.joyoyay.cake.maker.girl.cooking":{"interCDTime":30000,"isAppOnline":true}}
+{
+	"com.joyoyay.Blitz.Battle.Shooter.Modern.Warships": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.Stickman.Sniper.Shooter": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.Rotate.Ring.Escape.Circle": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.nuts.bolts.puzzle.sort": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.color.link.pop": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.Pixel.Shooter3D": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.sand.block.box.color.puzzle": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.arrows.puzzle.escape.maze.out.free": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.Summer.Juice.Sort.Puzzle": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.Robot.Arena.Fighting.Super.Mechs": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.happy.color.block": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.goodsmatch3d.find.puzzle": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.royaldream.princess.escape.puzzle": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.arrow.puzzle": {
+		"interCDTime": 40000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.bead.art.maker.pixelgame": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.snake.escape.arrow.puzzle": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.bus.crowd.escape": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.bbq.match.sort.puzzle": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.wood.away.block.puzzle.color.jam": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.Winter.Racing": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.arrow.tap.out.escape": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.arrows.escape.puzzle": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.airforcehit.power.attack": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.acrylic.nails.girl": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.beauty.race.girl": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.cake.maker.girl.cooking": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	}
+}
