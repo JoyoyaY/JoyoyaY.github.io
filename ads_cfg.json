@@ -84,7 +84,7 @@
 		"isAppOnline": true
 	},
 	"com.joyoyay.arrows.escape.puzzle": {
-		"interCDTime": 30000,
+		"interCDTime": 60000,
 		"isAppOnline": true
 	},
 	"com.joyoyay.airforcehit.power.attack": {
