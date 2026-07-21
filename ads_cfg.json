@@ -36,7 +36,7 @@
 		"isAppOnline": true
 	},
 	"com.joyoyay.Robot.Arena.Fighting.Super.Mechs": {
-		"interCDTime": 30000,
+		"interCDTime": 60000,
 		"isAppOnline": true
 	},
 	"com.joyoyay.happy.color.block": {
