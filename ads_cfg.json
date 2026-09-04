@@ -162,5 +162,17 @@
 	"com.joyoyay.sort.arrows.puzzle.escape": {
 		"interCDTime": 30000,
 		"isAppOnline": true
+	},
+	"com.joyoyay.color.hoop.sort": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.screw.jam.master.nuts.bolts.sort": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.nut.bolt.sort.escape": {
+		"interCDTime": 30000,
+		"isAppOnline": true
 	}
 }
