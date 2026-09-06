@@ -174,5 +174,9 @@
 	"com.joyoyay.nut.bolt.sort.escape": {
 		"interCDTime": 30000,
 		"isAppOnline": true
+	},
+	"com.joyoyay.arrow.escape.puzzle.sort.logic": {
+		"interCDTime": 30000,
+		"isAppOnline": true
 	}
 }
