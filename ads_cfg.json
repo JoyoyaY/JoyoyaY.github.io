@@ -178,5 +178,9 @@
 	"com.joyoyay.arrow.escape.puzzle.sort.logic": {
 		"interCDTime": 30000,
 		"isAppOnline": true
+	},
+	"com.joyoyay.remove.arrows.yarn.weaving": {
+		"interCDTime": 30000,
+		"isAppOnline": true
 	}
 }
