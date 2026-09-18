@@ -182,5 +182,13 @@
 	"com.joyoyay.remove.arrows.yarn.weaving": {
 		"interCDTime": 30000,
 		"isAppOnline": true
+	},
+	"com.joyoyay.bottle.sort.fun.puzzle.logic": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.juice.screw.pour.water.logic": {
+		"interCDTime": 30000,
+		"isAppOnline": true
 	}
 }
