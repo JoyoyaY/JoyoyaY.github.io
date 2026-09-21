@@ -52,7 +52,7 @@
 		"isAppOnline": true
 	},
 	"com.joyoyay.arrow.puzzle": {
-		"interCDTime": 40000,
+		"interCDTime": 60000,
 		"isAppOnline": true
 	},
 	"com.joyoyay.bead.art.maker.pixelgame": {
@@ -188,6 +188,10 @@
 		"isAppOnline": true
 	},
 	"com.joyoyay.juice.screw.pour.water.logic": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.water.sort.fill.pack.puzzle.logic": {
 		"interCDTime": 30000,
 		"isAppOnline": true
 	}
