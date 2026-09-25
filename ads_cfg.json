@@ -194,5 +194,33 @@
 	"com.joyoyay.water.sort.fill.pack.puzzle.logic": {
 		"interCDTime": 30000,
 		"isAppOnline": true
+	},
+	"com.joyoyay.erase.sand.jam.flow":{
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.smash.everything.pieces.breakit":{
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.screw.puzzle.color.sorting":{
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.car.parking.lot.escape":{
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.crazy.bus.station":{
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.bus.traffic.color.jam":{
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.goods.sort.clear.match3":{
+		"interCDTime": 30000,
+		"isAppOnline": true
 	}
 }
