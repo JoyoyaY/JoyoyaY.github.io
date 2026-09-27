@@ -222,5 +222,9 @@
 	"com.joyoyay.goods.sort.clear.match3":{
 		"interCDTime": 30000,
 		"isAppOnline": true
+	},
+	"com.joyoyay.wool.sort.super.yarn.jam":{
+		"interCDTime": 30000,
+		"isAppOnline": true
 	}
 }
