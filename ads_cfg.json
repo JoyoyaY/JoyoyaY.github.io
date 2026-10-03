@@ -226,5 +226,9 @@
 	"com.joyoyay.wool.sort.super.yarn.jam":{
 		"interCDTime": 30000,
 		"isAppOnline": true
+	},
+	"com.joyoyay.water.sort.build.house":{
+		"interCDTime": 30000,
+		"isAppOnline": true
 	}
 }
