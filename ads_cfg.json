@@ -230,5 +230,13 @@
 	"com.joyoyay.water.sort.build.house":{
 		"interCDTime": 30000,
 		"isAppOnline": true
+	},
+	"com.joyoyay.arrow.block.escape":{
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.arrow.unbound.escape":{
+		"interCDTime": 30000,
+		"isAppOnline": true
 	}
 }
