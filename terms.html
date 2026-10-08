@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>用户协议 - 广州乔亚洋信息科技有限公司</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<style>
+:root {
+    --nav-h: 64px; /* 默认值，JS 会动态更新 */
+}
+
+html {
+    scroll-padding-top: var(--nav-h);
+    scroll-behavior: smooth;
+}
+
+/* 所有作为锚点目标（带 id）的元素都自动避让导航栏 */
+[id] {
+    scroll-margin-top: var(--nav-h);
+}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI','Microsoft YaHei',sans-serif;}
+body{background:linear-gradient(135deg,#f5f7fa 0%,#e4edf5 100%);color:#333;line-height:1.75;min-height:100vh;}
+
+.navbar{position:sticky;top:0;z-index:1000;background:linear-gradient(120deg,#2c3e50,#1a2a3a);box-shadow:0 2px 12px rgba(0,0,0,.15);}
+.navbar-inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between;height:64px;gap:20px;}
+.navbar-brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-size:1.05rem;font-weight:600;white-space:nowrap;flex-shrink:0;}
+.navbar-brand i{color:#3498db;font-size:1.3rem;}
+.navbar-menu{list-style:none;display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end;}
+.navbar-menu a{display:block;color:rgba(255,255,255,.85);text-decoration:none;padding:8px 12px;border-radius:8px;font-size:.9rem;transition:all .25s ease;white-space:nowrap;}
+.navbar-menu a:hover{color:#fff;background:rgba(255,255,255,.1);}
+.navbar-menu a.active{color:#fff;background:rgba(52,152,219,.35);}
+
+.legal-page{max-width:1000px;margin:0 auto;padding:30px 20px 40px;}
+.legal-card{background:#fff;border-radius:15px;box-shadow:0 5px 20px rgba(0,0,0,.08);padding:50px 55px;}
+
+.legal-hero{border-bottom:3px solid #3498db;padding-bottom:22px;margin-bottom:35px;}
+.legal-hero h1{color:#2c3e50;font-size:2rem;margin-bottom:10px;}
+.legal-meta{color:#95a5a6;font-size:.9rem;}
+.legal-meta i{color:#3498db;margin-right:6px;}
+
+.toc{background:#f8f9fa;border-radius:10px;padding:22px 25px;margin-bottom:35px;border-left:4px solid #3498db;}
+.toc h3{color:#2c3e50;font-size:1rem;margin-bottom:12px;display:flex;align-items:center;gap:8px;}
+.toc h3 i{color:#3498db;}
+.toc ol{padding-left:22px;column-count:2;column-gap:30px;}
+.toc li{margin-bottom:6px;font-size:.9rem;}
+.toc a{color:#3498db;text-decoration:none;}
+.toc a:hover{text-decoration:underline;}
+
+.legal-section{margin-bottom:35px;scroll-margin-top:80px;}
+.legal-section h2{color:#2c3e50;font-size:1.3rem;margin-bottom:14px;display:flex;align-items:center;gap:10px;}
+.legal-section h2 .num{display:inline-flex;align-items:center;justify-content:center;min-width:32px;height:32px;border-radius:9px;background:linear-gradient(135deg,#3498db,#2980b9);color:#fff;font-size:.9rem;font-weight:600;flex-shrink:0;}
+.legal-section h3{color:#34495e;font-size:1.05rem;margin:18px 0 10px;}
+.legal-section p{color:#555;font-size:.98rem;margin-bottom:12px;}
+.legal-section ul,.legal-section ol{padding-left:24px;margin-bottom:12px;}
+.legal-section li{color:#555;font-size:.98rem;margin-bottom:8px;}
+.legal-section strong{color:#2c3e50;}
+
+.tip-box{background:#e8f4fd;border-left:4px solid #3498db;border-radius:8px;padding:16px 20px;margin:16px 0;color:#2c3e50;font-size:.95rem;}
+.tip-box i{color:#3498db;margin-right:8px;}
+
+.warn-box{background:#fff5f5;border-left:4px solid #e74c3c;border-radius:8px;padding:16px 20px;margin:16px 0;color:#721c24;font-size:.95rem;}
+.warn-box i{color:#e74c3c;margin-right:8px;}
+
+.contact-inline{background:#f8f9fa;border-radius:8px;padding:16px 20px;margin-top:14px;font-size:.95rem;color:#555;}
+
+footer{text-align:center;padding:30px 20px;margin:40px auto 20px;max-width:1000px;color:#7f8c8d;font-size:.9rem;background:#fff;border-radius:15px;box-shadow:0 5px 20px rgba(0,0,0,.05);}
+footer .footer-links{margin-bottom:12px;}
+footer .footer-links a{color:#3498db;text-decoration:none;margin:0 10px;font-size:.88rem;}
+footer .footer-links a:hover{text-decoration:underline;}
+footer .copyright{color:#95a5a6;font-size:.85rem;}
+
+@media (max-width:860px){
+    .navbar-inner{height:auto;padding:12px 16px;flex-direction:column;gap:10px;}
+    .navbar-menu{justify-content:center;gap:2px;}
+    .navbar-menu a{padding:6px 9px;font-size:.82rem;}
+}
+@media (max-width:768px){
+    .legal-page{padding:15px 12px;}
+    .legal-card{padding:30px 22px;}
+    .legal-hero h1{font-size:1.5rem;}
+    .toc ol{column-count:1;}
+}
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="navbar-inner">
+        <a href="index.html" class="navbar-brand">
+            <i class="fas fa-rocket"></i>
+            <span>乔亚洋科技</span>
+        </a>
+        <ul class="navbar-menu">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="index.html#about">关于我们</a></li>
+            <li><a href="index.html#products">游戏产品</a></li>
+            <li><a href="index.html#platforms">发行平台</a></li>
+            <li><a href="index.html#contact">联系方式</a></li>
+            <li><a href="privacy.html">隐私政策</a></li>
+            <li><a href="terms.html" class="active">用户协议</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="legal-page">
+    <div class="legal-card">
+
+        <div class="legal-hero">
+            <h1>用户协议</h1>
+            <p class="legal-meta"><i class="fas fa-calendar-alt"></i>最近更新日期：2026年10月9日 &nbsp;·&nbsp; 生效日期：2026年10月9日</p>
+        </div>
+
+        <div class="toc">
+            <h3><i class="fas fa-list-ul"></i>目录</h3>
+            <ol>
+                <li><a href="#t1">协议的范围与接受</a></li>
+                <li><a href="#t2">服务说明</a></li>
+                <li><a href="#t3">账号与用户资格</a></li>
+                <li><a href="#t4">用户行为规范</a></li>
+                <li><a href="#t5">虚拟物品与付费</a></li>
+                <li><a href="#t6">知识产权</a></li>
+                <li><a href="#t7">用户生成内容</a></li>
+                <li><a href="#t8">免责声明</a></li>
+                <li><a href="#t9">责任限制</a></li>
+                <li><a href="#t10">服务的变更、中断与终止</a></li>
+                <li><a href="#t11">通知与送达</a></li>
+                <li><a href="#t12">法律适用与争议解决</a></li>
+                <li><a href="#t13">其他条款</a></li>
+                <li><a href="#t14">联系方式</a></li>
+            </ol>
+        </div>
+
+        <div class="legal-section" id="t1">
+            <h2><span class="num">01</span>协议的范围与接受</h2>
+            <p>本用户协议（以下简称"本协议"）是您与广州乔亚洋信息科技有限公司（以下简称"我们"或"本公司"）之间就使用本公司提供的游戏产品及相关服务（以下统称"本服务"）所订立的具有法律约束力的协议。</p>
+            <p>请您在使用本服务前，认真阅读并充分理解本协议的全部内容，特别是免除或限制责任的条款、法律适用和争议解决条款。<strong>您点击"同意"、"接受"或实际使用本服务，即表示您已阅读、理解并同意接受本协议的全部条款。</strong></p>
+            <p>如您不同意本协议的任何内容，请立即停止使用本服务。</p>
+            <p>本协议同时包括我们不时发布的其他相关规则、政策、公告或说明（如《隐私政策》等），前述内容均为本协议不可分割的组成部分，与本协议具有同等法律效力。</p>
+        </div>
+
+        <div class="legal-section" id="t2">
+            <h2><span class="num">02</span>服务说明</h2>
+            <p>本公司是一家专注于俄语市场的游戏研发与发行企业，通过以下渠道向用户提供游戏产品与服务：</p>
+            <ul>
+                <li><strong>VK Mini Apps：</strong>基于俄罗斯社交平台 VK 的 H5 小游戏，即点即玩；</li>
+                <li><strong>RuStore：</strong>俄罗斯官方应用商店发布的移动客户端游戏；</li>
+                <li><strong>传音 H5 游戏平台：</strong>面向新兴市场用户的 H5 游戏服务；</li>
+                <li><strong>官方网站：</strong>展示公司信息、游戏产品及相关政策的页面。</li>
+            </ul>
+            <p>本服务的具体内容由我们根据实际情况提供，包括但不限于游戏下载、游戏运行、进度保存、虚拟物品购买、客户服务等。我们有权根据业务需要，对服务内容进行更新、调整或优化。</p>
+        </div>
+
+        <div class="legal-section" id="t3">
+            <h2><span class="num">03</span>账号与用户资格</h2>
+
+            <h3>3.1 用户资格</h3>
+            <p>您确认，在您开始使用本服务前，您应当具备中华人民共和国或您所在国家/地区法律规定的与您行为相适应的民事行为能力。若您不具备前述资格，请在监护人的陪同下阅读本协议，并在取得监护人同意后使用本服务。</p>
+
+            <h3>3.2 账号获取</h3>
+            <p>本服务可能通过第三方平台账户（如 VK 账户、RuStore 账户）直接登录使用。您应妥善保管您的账户信息及登录凭证，并对通过该账户进行的所有活动负责。</p>
+
+            <h3>3.3 账号安全</h3>
+            <ul>
+                <li>您应妥善保管账户及密码，不得将账户出借、转让或共享给他人；</li>
+                <li>如发现账户被非法使用或存在安全隐患，应立即通知我们；</li>
+                <li>因您保管不善导致账户丢失、被盗或信息泄露的，由您自行承担相应责任。</li>
+            </ul>
+        </div>
+
+        <div class="legal-section" id="t4">
+            <h2><span class="num">04</span>用户行为规范</h2>
+            <p>您在使用本服务时，应遵守中华人民共和国法律法规、您所在国家/地区的法律法规，以及游戏发布平台的服务条款。您不得从事以下行为：</p>
+
+            <h3>4.1 违法与有害行为</h3>
+            <ul>
+                <li>发布、传播任何违反法律法规、公序良俗或社会公德的信息；</li>
+                <li>从事任何危害国家安全、泄露国家秘密、颠覆国家政权的行为；</li>
+                <li>煽动民族仇恨、民族歧视，破坏民族团结；</li>
+                <li>宣扬恐怖主义、极端主义，或传播暴力、色情、赌博等有害信息。</li>
+            </ul>
+
+            <h3>4.2 破坏游戏公平与安全的行为</h3>
+            <ul>
+                <li>使用外挂、作弊软件、加速器、修改器等第三方工具干扰游戏正常运行；</li>
+                <li>利用游戏漏洞（Bug）获取不正当利益，或未及时向官方报告；</li>
+                <li>通过非官方渠道进行游戏内虚拟物品、账号的交易；</li>
+                <li>对游戏客户端进行反向工程、反编译、破解、修改或以其他方式获取源代码；</li>
+                <li>使用自动化脚本、机器人程序等批量操作工具。</li>
+            </ul>
+
+            <h3>4.3 侵犯他人权益的行为</h3>
+            <ul>
+                <li>冒用他人身份或伪造身份信息；</li>
+                <li>侵犯他人的知识产权、名誉权、隐私权等合法权益；</li>
+                <li>骚扰、辱骂、威胁、诽谤其他用户；</li>
+                <li>未经授权收集、使用其他用户的个人信息。</li>
+            </ul>
+
+            <div class="warn-box"><i class="fas fa-exclamation-circle"></i>如您违反上述行为规范，我们有权视情节严重程度，采取警告、限制功能、暂停或永久封禁账号、删除违规内容等措施，并保留追究法律责任的权利。</div>
+        </div>
+
+        <div class="legal-section" id="t5">
+            <h2><span class="num">05</span>虚拟物品与付费</h2>
+
+            <h3>5.1 虚拟物品</h3>
+            <p>本服务可能包含游戏内虚拟货币、道具、皮肤、关卡解锁等虚拟物品。虚拟物品是本公司授予您的一项有限、非独占、不可转让、不可继承的使用许可，其所有权归本公司所有，您仅可在游戏内按照规则使用。</p>
+            <p>虚拟物品不具有任何现实货币价值，不得兑换成法定货币，也不得在游戏外进行交易、转让、赠与或继承。</p>
+
+            <h3>5.2 付费服务</h3>
+            <ul>
+                <li>部分虚拟物品需通过付费获得。您应通过我们官方提供的支付渠道进行支付，通过非官方渠道进行的交易不受保护。</li>
+                <li>充值成功后，除非法律法规另有规定或本协议另有约定，原则上不予退款。</li>
+                <li>如因系统故障、支付异常等原因导致充值未到账，请及时联系客服处理。</li>
+                <li>如您为未成年人，请在监护人同意并指导下进行付费操作。监护人有权要求对未经其同意的未成年人充值进行退款，具体按照相关法律法规及平台政策执行。</li>
+            </ul>
+
+            <h3>5.3 价格调整</h3>
+            <p>我们有权根据运营需要调整虚拟物品的价格、种类及获取方式。价格调整前您已购买的虚拟物品，不受价格调整影响。</p>
+        </div>
+
+        <div class="legal-section" id="t6">
+            <h2><span class="num">06</span>知识产权</h2>
+            <p>本服务所包含的一切内容，包括但不限于游戏软件、源代码、美术素材、音乐音效、文字说明、界面设计、商标、Logo、图标、游戏名称、角色形象等，其知识产权（包括著作权、商标权、专利权及其他相关权利）均归本公司或相应权利人所有，受中华人民共和国及国际知识产权法律法规的保护。</p>
+            <p>未经本公司事先书面许可，您不得：</p>
+            <ul>
+                <li>复制、修改、改编、翻译、演绎、汇编、传播本服务的任何内容；</li>
+                <li>将本服务的内容用于任何商业用途；</li>
+                <li>删除或修改本服务中的版权声明、商标标识或其他权利声明；</li>
+                <li>以任何方式使用本公司的商标、商号、域名或其他显著品牌标识。</li>
+            </ul>
+            <p>对于您通过本服务上传、发布或传输的任何内容，您授予本公司一项全球范围内、免费、非独家、可转让、可再许可的使用权，以便本公司提供、维护、改进及推广本服务。</p>
+        </div>
+
+        <div class="legal-section" id="t7">
+            <h2><span class="num">07</span>用户生成内容</h2>
+            <p>如本服务允许您创建、上传、发布或分享内容（如玩家昵称、自定义头像、聊天消息等），您应确保：</p>
+            <ul>
+                <li>您对所发布的内容拥有合法权利，或已获得相关权利人的授权；</li>
+                <li>您发布的内容不违反任何法律法规、公序良俗或第三方权益；</li>
+                <li>您发布的内容不含病毒、木马、广告、垃圾信息或任何有害代码。</li>
+            </ul>
+            <p>我们有权对用户生成内容进行审核，并有权删除违规内容或限制相关账号。您应对自己发布的内容承担全部责任。</p>
+        </div>
+
+        <div class="legal-section" id="t8">
+            <h2><span class="num">08</span>免责声明</h2>
+            <p>在法律允许的最大范围内，本公司对本服务不作任何明示或默示的担保，包括但不限于对适销性、特定用途适用性、不侵权的担保。您理解并同意：</p>
+            <ul>
+                <li>本服务按"现状"和"现有"基础提供，我们不对服务的及时性、安全性、准确性、无中断或无错误作出保证；</li>
+                <li>因不可抗力（如自然灾害、战争、政府行为、疫情、网络故障等）导致服务中断或数据丢失的，本公司不承担责任；</li>
+                <li>因第三方平台（如 VK、RuStore、传音 H5 游戏平台等）的政策调整、服务变更或中止，导致本服务无法正常提供的，本公司不承担责任；</li>
+                <li>因您自身设备故障、网络问题、操作不当、账户信息泄露等原因造成的损失，本公司不承担责任；</li>
+                <li>因黑客攻击、病毒侵入、电信运营商故障等第三方原因造成的服务中断或信息泄露，本公司将在合理范围内协助处理，但不承担赔偿责任。</li>
+            </ul>
+        </div>
+
+        <div class="legal-section" id="t9">
+            <h2><span class="num">09</span>责任限制</h2>
+            <p>在法律允许的最大范围内，本公司对您因使用或无法使用本服务而产生的任何间接损失、附带损失、特殊损失、惩罚性损失或后果性损失（包括但不限于利润损失、数据丢失、业务中断等）不承担任何责任。</p>
+            <p>在适用法律允许的范围内，本公司对您承担的赔偿责任总额，不超过您在索赔事由发生前 12 个月内就相关服务向本公司支付的实际金额。</p>
+            <p>本条款不排除或限制依法不可排除或限制的责任。</p>
+        </div>
+
+        <div class="legal-section" id="t10">
+            <h2><span class="num">10</span>服务的变更、中断与终止</h2>
+            <p>我们保留随时变更、中断或终止本服务（或其任何部分）的权利，包括但不限于：</p>
+            <ul>
+                <li>更新游戏版本、调整游戏内容、下架某款游戏；</li>
+                <li>因系统维护、升级、故障排查等原因临时中断服务；</li>
+                <li>因业务战略调整、法律法规要求等原因永久终止某项服务。</li>
+            </ul>
+            <p>如我们决定永久终止某款游戏服务，我们将提前至少 60 日通过游戏内公告、官方网站或其他合理方式通知您。对于您已购买的未消费虚拟物品，我们将按照法律法规及平台政策提供相应处理方案。</p>
+            <p>如您违反本协议，我们有权在不事先通知的情况下，立即暂停或终止向您提供服务，并删除相关数据。</p>
+        </div>
+
+        <div class="legal-section" id="t11">
+            <h2><span class="num">11</span>通知与送达</h2>
+            <p>我们可能通过以下方式向您发送通知：</p>
+            <ul>
+                <li>游戏内公告、弹窗或站内消息；</li>
+                <li>官方网站公告；</li>
+                <li>您在注册或联系时提供的电子邮箱；</li>
+                <li>第三方平台（如 VK、RuStore 等）提供的通知渠道。</li>
+            </ul>
+            <p>前述通知自发送之日起视为已送达。请您及时关注相关渠道的信息。</p>
+        </div>
+
+        <div class="legal-section" id="t12">
+            <h2><span class="num">12</span>法律适用与争议解决</h2>
+            <p>本协议的订立、效力、解释、履行及争议解决，均适用中华人民共和国法律（不包括冲突法规则）。</p>
+            <p>因本协议或本服务产生的任何争议，双方应首先友好协商解决；协商不成的，任何一方均有权向本公司所在地有管辖权的人民法院提起诉讼。</p>
+            <p>如您所在国家/地区的法律对消费者权益保护有更有利于您的强制性规定，则在不与本协议冲突的范围内，优先适用该等强制性规定。</p>
+        </div>
+
+        <div class="legal-section" id="t13">
+            <h2><span class="num">13</span>其他条款</h2>
+            <ul>
+                <li><strong>完整性：</strong>本协议及其组成部分构成双方就本服务达成的完整协议，取代此前任何口头或书面的沟通与约定。</li>
+                <li><strong>可分割性：</strong>如本协议的任何条款被认定为无效或不可执行，不影响其他条款的效力。</li>
+                <li><strong>弃权：</strong>本公司未行使或延迟行使本协议项下的任何权利，不构成对该权利的放弃。</li>
+                <li><strong>转让：</strong>未经本公司书面同意，您不得将本协议项下的权利或义务转让给任何第三方。本公司有权在无须您同意的情况下，将本协议项下的权利或义务转让给关联公司或业务承继方。</li>
+                <li><strong>标题：</strong>本协议中的各条标题仅为方便阅读而设，不影响对应条款的解释。</li>
+            </ul>
+        </div>
+
+        <div class="legal-section" id="t14">
+            <h2><span class="num">14</span>联系方式</h2>
+            <p>如您对本协议有任何疑问、意见或建议，请通过以下方式与我们联系：</p>
+            <div class="contact-inline">
+                <p><strong>公司名称：</strong>广州乔亚洋信息科技有限公司</p>
+                <p><strong>电子邮箱：</strong>bazaaryo@outlook.com</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">首页</a>
+            <a href="index.html#about">关于我们</a>
+            <a href="index.html#products">游戏产品</a>
+            <a href="privacy.html">隐私政策</a>
+            <a href="terms.html">用户协议</a>
+        </div>
+        <p class="copyright">© 2026 广州乔亚洋信息科技有限公司 版权所有</p>
+    </footer>
+</div>
+
+</body>
+</html>

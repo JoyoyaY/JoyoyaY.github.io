@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>隐私政策 - 广州乔亚洋信息科技有限公司</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<style>
+:root {
+    --nav-h: 64px; /* 默认值，JS 会动态更新 */
+}
+
+html {
+    scroll-padding-top: var(--nav-h);
+    scroll-behavior: smooth;
+}
+
+/* 所有作为锚点目标（带 id）的元素都自动避让导航栏 */
+[id] {
+    scroll-margin-top: var(--nav-h);
+}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI','Microsoft YaHei',sans-serif;}
+body{background:linear-gradient(135deg,#f5f7fa 0%,#e4edf5 100%);color:#333;line-height:1.75;min-height:100vh;}
+
+/* 导航 */
+.navbar{position:sticky;top:0;z-index:1000;background:linear-gradient(120deg,#2c3e50,#1a2a3a);box-shadow:0 2px 12px rgba(0,0,0,.15);}
+.navbar-inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between;height:64px;gap:20px;}
+.navbar-brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-size:1.05rem;font-weight:600;white-space:nowrap;flex-shrink:0;}
+.navbar-brand i{color:#3498db;font-size:1.3rem;}
+.navbar-menu{list-style:none;display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end;}
+.navbar-menu a{display:block;color:rgba(255,255,255,.85);text-decoration:none;padding:8px 12px;border-radius:8px;font-size:.9rem;transition:all .25s ease;white-space:nowrap;}
+.navbar-menu a:hover{color:#fff;background:rgba(255,255,255,.1);}
+.navbar-menu a.active{color:#fff;background:rgba(52,152,219,.35);}
+
+/* 页面容器 */
+.legal-page{max-width:1000px;margin:0 auto;padding:30px 20px 40px;}
+.legal-card{background:#fff;border-radius:15px;box-shadow:0 5px 20px rgba(0,0,0,.08);padding:50px 55px;}
+
+.legal-hero{border-bottom:3px solid #3498db;padding-bottom:22px;margin-bottom:35px;}
+.legal-hero h1{color:#2c3e50;font-size:2rem;margin-bottom:10px;}
+.legal-meta{color:#95a5a6;font-size:.9rem;}
+.legal-meta i{color:#3498db;margin-right:6px;}
+
+/* 目录 */
+.toc{background:#f8f9fa;border-radius:10px;padding:22px 25px;margin-bottom:35px;border-left:4px solid #3498db;}
+.toc h3{color:#2c3e50;font-size:1rem;margin-bottom:12px;display:flex;align-items:center;gap:8px;}
+.toc h3 i{color:#3498db;}
+.toc ol{padding-left:22px;column-count:2;column-gap:30px;}
+.toc li{margin-bottom:6px;font-size:.9rem;}
+.toc a{color:#3498db;text-decoration:none;}
+.toc a:hover{text-decoration:underline;}
+
+/* 章节 */
+.legal-section{margin-bottom:35px;scroll-margin-top:80px;}
+.legal-section h2{color:#2c3e50;font-size:1.3rem;margin-bottom:14px;display:flex;align-items:center;gap:10px;}
+.legal-section h2 .num{display:inline-flex;align-items:center;justify-content:center;min-width:32px;height:32px;border-radius:9px;background:linear-gradient(135deg,#3498db,#2980b9);color:#fff;font-size:.9rem;font-weight:600;flex-shrink:0;}
+.legal-section h3{color:#34495e;font-size:1.05rem;margin:18px 0 10px;}
+.legal-section p{color:#555;font-size:.98rem;margin-bottom:12px;}
+.legal-section ul,.legal-section ol{padding-left:24px;margin-bottom:12px;}
+.legal-section li{color:#555;font-size:.98rem;margin-bottom:8px;}
+.legal-section strong{color:#2c3e50;}
+
+.tip-box{background:#e8f4fd;border-left:4px solid #3498db;border-radius:8px;padding:16px 20px;margin:16px 0;color:#2c3e50;font-size:.95rem;}
+.tip-box i{color:#3498db;margin-right:8px;}
+
+.contact-inline{background:#f8f9fa;border-radius:8px;padding:16px 20px;margin-top:14px;font-size:.95rem;color:#555;}
+
+/* 页脚 */
+footer{text-align:center;padding:30px 20px;margin:40px auto 20px;max-width:1000px;color:#7f8c8d;font-size:.9rem;background:#fff;border-radius:15px;box-shadow:0 5px 20px rgba(0,0,0,.05);}
+footer .footer-links{margin-bottom:12px;}
+footer .footer-links a{color:#3498db;text-decoration:none;margin:0 10px;font-size:.88rem;}
+footer .footer-links a:hover{text-decoration:underline;}
+footer .copyright{color:#95a5a6;font-size:.85rem;}
+
+@media (max-width:860px){
+    .navbar-inner{height:auto;padding:12px 16px;flex-direction:column;gap:10px;}
+    .navbar-menu{justify-content:center;gap:2px;}
+    .navbar-menu a{padding:6px 9px;font-size:.82rem;}
+}
+@media (max-width:768px){
+    .legal-page{padding:15px 12px;}
+    .legal-card{padding:30px 22px;}
+    .legal-hero h1{font-size:1.5rem;}
+    .toc ol{column-count:1;}
+}
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="navbar-inner">
+        <a href="index.html" class="navbar-brand">
+            <i class="fas fa-rocket"></i>
+            <span>乔亚洋科技</span>
+        </a>
+        <ul class="navbar-menu">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="index.html#about">关于我们</a></li>
+            <li><a href="index.html#products">游戏产品</a></li>
+            <li><a href="index.html#platforms">发行平台</a></li>
+            <li><a href="index.html#contact">联系方式</a></li>
+            <li><a href="privacy.html" class="active">隐私政策</a></li>
+            <li><a href="terms.html">用户协议</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="legal-page">
+    <div class="legal-card">
+
+        <div class="legal-hero">
+            <h1>隐私政策</h1>
+            <p class="legal-meta"><i class="fas fa-calendar-alt"></i>最近更新日期：2026年10月9日 &nbsp;·&nbsp; 生效日期：2026年10月9日</p>
+        </div>
+
+        <div class="toc">
+            <h3><i class="fas fa-list-ul"></i>目录</h3>
+            <ol>
+                <li><a href="#s1">引言与适用范围</a></li>
+                <li><a href="#s2">我们收集的信息</a></li>
+                <li><a href="#s3">信息的使用方式</a></li>
+                <li><a href="#s4">信息的共享与披露</a></li>
+                <li><a href="#s5">信息的存储与保护</a></li>
+                <li><a href="#s6">第三方服务与 SDK</a></li>
+                <li><a href="#s7">Cookie 及类似技术</a></li>
+                <li><a href="#s8">未成年人保护</a></li>
+                <li><a href="#s9">您的权利</a></li>
+                <li><a href="#s10">信息的跨境传输</a></li>
+                <li><a href="#s11">本政策的更新</a></li>
+                <li><a href="#s12">如何联系我们</a></li>
+            </ol>
+        </div>
+
+        <div class="legal-section" id="s1">
+            <h2><span class="num">01</span>引言与适用范围</h2>
+            <p>广州乔亚洋信息科技有限公司（以下简称"我们"或"本公司"）深知个人信息对您的重要性，并会尽全力保护您的个人信息安全可靠。我们致力于维持您对我们的信任，恪守以下原则保护您的个人信息：权责一致原则、目的明确原则、选择同意原则、最少够用原则、确保安全原则、主体参与原则、公开透明原则。</p>
+            <p>本隐私政策适用于我们通过以下渠道向您提供的所有游戏产品与服务（以下统称"本服务"）：</p>
+            <ul>
+                <li>移动客户端游戏应用（包括但不限于在 RuStore、Google Play 等应用商店发布的产品）；</li>
+                <li>H5 游戏及网页游戏（包括但不限于在 VK Mini Apps、传音 H5 游戏平台等渠道发布的产品）；</li>
+                <li>与上述游戏相关的官方网站、客服及其他配套服务。</li>
+            </ul>
+            <div class="tip-box"><i class="fas fa-info-circle"></i>请您在使用本服务前，仔细阅读并充分理解本隐私政策的全部内容。一旦您开始使用本服务，即表示您已充分理解并同意本政策的全部内容。</div>
+        </div>
+
+        <div class="legal-section" id="s2">
+            <h2><span class="num">02</span>我们收集的信息</h2>
+            <p>我们仅会出于本政策所述的以下目的，收集和使用您的个人信息。我们收集的信息类型取决于您具体使用的游戏产品与功能。</p>
+
+            <h3>2.1 您主动提供的信息</h3>
+            <ul>
+                <li><strong>账户信息：</strong>当您通过第三方平台（如 VK、RuStore）登录或使用我们的游戏时，我们可能会获取该平台授权的账户标识、昵称、头像等基础信息。</li>
+                <li><strong>客服沟通信息：</strong>当您通过邮件或其他渠道与我们联系时，您主动提供的姓名、联系方式、问题描述及相关截图。</li>
+                <li><strong>反馈与调研信息：</strong>当您参与我们的问卷调查、用户调研或活动时，您主动填写的相关信息。</li>
+            </ul>
+
+            <h3>2.2 我们自动收集的信息</h3>
+            <ul>
+                <li><strong>设备信息：</strong>设备型号、操作系统版本、设备唯一标识符（如 Android ID、OAID、IDFA 等）、屏幕分辨率、设备语言、时区、网络类型等。</li>
+                <li><strong>日志信息：</strong>您使用本服务时的操作日志、游戏进度、登录时间、崩溃日志、错误报告等。</li>
+                <li><strong>网络信息：</strong>IP 地址、网络接入方式、运营商信息等，用于反作弊、安全防护及区域化服务优化。</li>
+            </ul>
+
+            <h3>2.3 来自第三方平台的信息</h3>
+            <p>当您通过 VK、RuStore 或传音 H5 游戏平台使用我们的游戏时，我们可能会根据该平台的授权机制，获取其提供的必要信息（例如账户标识、支付凭证、订单状态等）。具体信息范围以该平台的授权页面及隐私政策为准。</p>
+
+            <div class="tip-box"><i class="fas fa-shield-alt"></i>我们不会主动收集您的身份证号、生物识别信息、精确地理位置、通讯录、短信、相册等敏感个人信息。如某项游戏功能确需收集上述信息，我们将在收集前另行取得您的明示同意。</div>
+        </div>
+
+        <div class="legal-section" id="s3">
+            <h2><span class="num">03</span>信息的使用方式</h2>
+            <p>我们将收集到的信息用于以下目的：</p>
+            <ul>
+                <li><strong>提供与维护服务：</strong>实现游戏核心功能、保存游戏进度、处理游戏内交互与充值订单。</li>
+                <li><strong>优化与改进：</strong>分析玩家行为与偏好，优化游戏玩法、关卡难度、界面设计及用户体验。</li>
+                <li><strong>安全保障：</strong>检测、预防和应对欺诈、外挂、作弊、恶意程序、网络攻击等安全风险，维护游戏公平性与服务稳定性。</li>
+                <li><strong>客户服务：</strong>响应您的咨询、投诉、反馈与建议，提供技术支持与问题解决方案。</li>
+                <li><strong>合规与法律义务：</strong>遵守适用的法律法规、行业标准及监管要求，配合有权机关的合法调查。</li>
+                <li><strong>个性化推荐（如适用）：</strong>在获得您同意的前提下，向您推荐可能感兴趣的游戏内容或活动。</li>
+            </ul>
+            <p>如需将您的个人信息用于本政策未载明的其他目的，我们将再次征得您的同意。</p>
+        </div>
+
+        <div class="legal-section" id="s4">
+            <h2><span class="num">04</span>信息的共享与披露</h2>
+            <p>我们不会向任何第三方出售您的个人信息。在以下情形下，我们可能会共享或披露您的信息：</p>
+            <ul>
+                <li><strong>平台合作方：</strong>为在 VK、RuStore、传音 H5 游戏平台等渠道提供游戏服务，我们可能需要按照平台要求共享必要的信息（如支付凭证、订单状态）。</li>
+                <li><strong>服务提供商：</strong>我们可能委托第三方服务商提供数据分析、支付处理、云存储、客服系统等支持服务。我们会与其签署严格的保密协议，要求其按照我们的说明、本政策以及其他任何相关的保密和安全措施来处理信息。</li>
+                <li><strong>法律要求：</strong>根据法律法规、司法或行政机关的强制性要求，我们可能会披露您的信息。</li>
+                <li><strong>业务转让：</strong>如发生合并、收购、重组或资产转让等情形，您的信息可能作为交易资产的一部分被转移。我们将要求承接方继续受本政策约束，否则将要求其重新征得您的同意。</li>
+                <li><strong>经您同意的其他情形。</strong></li>
+            </ul>
+        </div>
+
+        <div class="legal-section" id="s5">
+            <h2><span class="num">05</span>信息的存储与保护</h2>
+
+            <h3>5.1 存储地点</h3>
+            <p>我们在中华人民共和国境内收集和产生的个人信息，将存储在中华人民共和国境内。如因业务需要向境外传输，我们将按照相关法律法规的要求进行安全评估并采取必要的保护措施。</p>
+
+            <h3>5.2 存储期限</h3>
+            <p>我们仅在实现本政策所述目的所必需的最短时间内保留您的个人信息。超出保存期限后，我们将对您的个人信息进行删除或匿名化处理，但法律法规另有规定的除外。</p>
+
+            <h3>5.3 安全措施</h3>
+            <ul>
+                <li>采用业界通行的加密技术（如 TLS/SSL）保护数据传输安全；</li>
+                <li>对存储的个人信息采取访问控制、权限管理、日志审计等安全措施；</li>
+                <li>定期开展安全培训与应急演练，提升员工的数据保护意识；</li>
+                <li>在发生个人信息安全事件时，我们将按照法律法规要求及时告知您相关情况。</li>
+            </ul>
+            <div class="tip-box"><i class="fas fa-exclamation-triangle"></i>请您理解，互联网环境并非绝对安全。尽管我们已采取合理的安全措施，但无法始终保证信息的绝对安全。请妥善保管您的账户信息与设备，避免因个人原因导致信息泄露。</div>
+        </div>
+
+        <div class="legal-section" id="s6">
+            <h2><span class="num">06</span>第三方服务与 SDK</h2>
+            <p>为保障游戏功能的实现与优化，我们可能会集成第三方 SDK 或使用第三方服务。这些第三方可能包括：</p>
+            <ul>
+                <li><strong>数据分析服务：</strong>用于统计游戏使用情况、崩溃分析、性能监控；</li>
+                <li><strong>广告与推广服务：</strong>用于在获得您同意的前提下展示个性化或非个性化广告；</li>
+                <li><strong>支付服务：</strong>用于处理游戏内购买与充值的支付网关；</li>
+                <li><strong>平台登录服务：</strong>如 VK 登录、RuStore 账户体系等。</li>
+            </ul>
+            <p>这些第三方服务商有其独立的隐私政策。我们建议您在使用相关功能前，仔细阅读第三方的隐私政策。我们会对第三方 SDK 进行安全评估，并要求其按照本政策及相关法律法规处理您的信息。</p>
+        </div>
+
+        <div class="legal-section" id="s7">
+            <h2><span class="num">07</span>Cookie 及类似技术</h2>
+            <p>我们的官方网站及 H5 游戏可能使用 Cookie、LocalStorage、Web Beacon 等类似技术，用于：</p>
+            <ul>
+                <li>记住您的偏好设置与登录状态；</li>
+                <li>统计访问量与使用情况，改善服务质量；</li>
+                <li>保障账户与交易安全。</li>
+            </ul>
+            <p>您可以通过浏览器设置管理或清除 Cookie。但请注意，禁用 Cookie 可能导致部分功能无法正常使用。</p>
+        </div>
+
+        <div class="legal-section" id="s8">
+            <h2><span class="num">08</span>未成年人保护</h2>
+            <p>我们高度重视未成年人的个人信息保护。若您是未满 18 周岁的未成年人，请在您的父母或其他监护人的指导下阅读本政策，并在取得其同意后使用本服务。</p>
+            <ul>
+                <li>我们不会主动收集未成年人的个人信息。如我们发现在未事先获得监护人同意的情况下收集了未成年人的个人信息，将尽快删除相关数据。</li>
+                <li>若监护人发现未成年人未经其同意向我们提供了个人信息，请通过本政策第 12 条所述方式联系我们，我们将及时处理。</li>
+                <li>我们建议监护人指导未成年人正确使用网络与游戏服务，帮助其养成良好的上网习惯。</li>
+            </ul>
+        </div>
+
+        <div class="legal-section" id="s9">
+            <h2><span class="num">09</span>您的权利</h2>
+            <p>按照相关法律法规，您对您的个人信息享有以下权利：</p>
+            <ul>
+                <li><strong>访问权：</strong>您有权访问我们持有的与您相关的个人信息。</li>
+                <li><strong>更正权：</strong>如您发现我们持有的信息有误，您有权要求我们更正。</li>
+                <li><strong>删除权：</strong>在符合法律法规规定的情形下，您有权要求我们删除您的个人信息。</li>
+                <li><strong>撤回同意权：</strong>您有权随时撤回此前对我们处理您个人信息的同意。撤回同意不影响撤回前基于同意已进行的处理活动的效力。</li>
+                <li><strong>注销账户权：</strong>您有权注销您的游戏账户。注销后，我们将删除或匿名化您的个人信息，但法律法规另有规定的除外。</li>
+                <li><strong>投诉权：</strong>如您认为我们的个人信息处理行为损害了您的合法权益，您有权向监管部门投诉举报。</li>
+            </ul>
+            <p>如需行使上述权利，请通过本政策第 12 条所述方式与我们联系。我们将在验证您的身份后，于合理期限内（一般不超过 15 个工作日）回复您的请求。</p>
+        </div>
+
+        <div class="legal-section" id="s10">
+            <h2><span class="num">10</span>信息的跨境传输</h2>
+            <p>由于我们的游戏产品面向俄罗斯及全球多个区域市场发行，在为您提供服务的过程中，您的部分信息可能需要在不同国家或地区之间传输。我们将严格遵守相关法律法规关于数据跨境传输的要求，采取必要的安全保障措施（如签署标准合同条款、进行安全评估等），确保您的个人信息得到与在境内同等的保护。</p>
+        </div>
+
+        <div class="legal-section" id="s11">
+            <h2><span class="num">11</span>本政策的更新</h2>
+            <p>我们可能会根据业务发展、法律法规变化或技术更新，适时对本隐私政策进行修订。修订后的政策将在本页面公布，并更新"最近更新日期"。</p>
+            <p>对于重大变更（如收集信息范围、使用目的、共享对象等发生实质性变化），我们将通过显著方式（如页面弹窗、站内通知）另行告知您，并在必要时重新征得您的同意。</p>
+            <p>建议您定期查阅本政策，以了解最新的隐私保护措施。继续使用本服务即表示您同意更新后的隐私政策。</p>
+        </div>
+
+        <div class="legal-section" id="s12">
+            <h2><span class="num">12</span>如何联系我们</h2>
+            <p>如您对本隐私政策有任何疑问、意见或建议，或需要行使上述权利，请通过以下方式与我们联系：</p>
+            <div class="contact-inline">
+                <p><strong>公司名称：</strong>广州乔亚洋信息科技有限公司</p>
+                <p><strong>电子邮箱：</strong>bazaaryo@outlook.com</p>
+            </div>
+            <p style="margin-top:14px;">我们将在收到您的请求后尽快处理，一般情况下将在 15 个工作日内予以回复。</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">首页</a>
+            <a href="index.html#about">关于我们</a>
+            <a href="index.html#products">游戏产品</a>
+            <a href="privacy.html">隐私政策</a>
+            <a href="terms.html">用户协议</a>
+        </div>
+        <p class="copyright">© 2026 广州乔亚洋信息科技有限公司 版权所有</p>
+    </footer>
+</div>
+
+</body>
+</html>
