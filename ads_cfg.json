@@ -238,5 +238,9 @@
 	"com.joyoyay.arrow.unbound.escape":{
 		"interCDTime": 30000,
 		"isAppOnline": true
+	},
+	"com.joyoyay.arrow.dash.escape":{
+		"interCDTime": 30000,
+		"isAppOnline": true
 	}
 }
