@@ -246,5 +246,9 @@
 	"com.joyoyay.arrow.maze.overlapping.lines":{
 		"interCDTime": 30000,
 		"isAppOnline": true
+	},
+	"com.joyoyay.block.shooter.cube.pixel":{
+		"interCDTime": 30000,
+		"isAppOnline": true
 	}
 }
