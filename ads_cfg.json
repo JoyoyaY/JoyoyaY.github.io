@@ -250,5 +250,9 @@
 	"com.joyoyay.block.shooter.cube.pixel":{
 		"interCDTime": 30000,
 		"isAppOnline": true
+	},
+	"com.joyoyay.bean.sort.block.color":{
+		"interCDTime": 30000,
+		"isAppOnline": true
 	}
 }
