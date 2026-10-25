@@ -195,63 +195,67 @@
 		"interCDTime": 30000,
 		"isAppOnline": true
 	},
-	"com.joyoyay.erase.sand.jam.flow":{
+	"com.joyoyay.erase.sand.jam.flow": {
 		"interCDTime": 30000,
 		"isAppOnline": true
 	},
-	"com.joyoyay.smash.everything.pieces.breakit":{
+	"com.joyoyay.smash.everything.pieces.breakit": {
 		"interCDTime": 30000,
 		"isAppOnline": true
 	},
-	"com.joyoyay.screw.puzzle.color.sorting":{
+	"com.joyoyay.screw.puzzle.color.sorting": {
 		"interCDTime": 30000,
 		"isAppOnline": true
 	},
-	"com.joyoyay.car.parking.lot.escape":{
+	"com.joyoyay.car.parking.lot.escape": {
 		"interCDTime": 30000,
 		"isAppOnline": true
 	},
-	"com.joyoyay.crazy.bus.station":{
+	"com.joyoyay.crazy.bus.station": {
 		"interCDTime": 30000,
 		"isAppOnline": true
 	},
-	"com.joyoyay.bus.traffic.color.jam":{
+	"com.joyoyay.bus.traffic.color.jam": {
 		"interCDTime": 30000,
 		"isAppOnline": true
 	},
-	"com.joyoyay.goods.sort.clear.match3":{
+	"com.joyoyay.goods.sort.clear.match3": {
 		"interCDTime": 30000,
 		"isAppOnline": true
 	},
-	"com.joyoyay.wool.sort.super.yarn.jam":{
+	"com.joyoyay.wool.sort.super.yarn.jam": {
 		"interCDTime": 30000,
 		"isAppOnline": true
 	},
-	"com.joyoyay.water.sort.build.house":{
+	"com.joyoyay.water.sort.build.house": {
 		"interCDTime": 30000,
 		"isAppOnline": true
 	},
-	"com.joyoyay.arrow.block.escape":{
+	"com.joyoyay.arrow.block.escape": {
 		"interCDTime": 30000,
 		"isAppOnline": true
 	},
-	"com.joyoyay.arrow.unbound.escape":{
+	"com.joyoyay.arrow.unbound.escape": {
 		"interCDTime": 30000,
 		"isAppOnline": true
 	},
-	"com.joyoyay.arrow.dash.escape":{
+	"com.joyoyay.arrow.dash.escape": {
 		"interCDTime": 30000,
 		"isAppOnline": true
 	},
-	"com.joyoyay.arrow.maze.overlapping.lines":{
+	"com.joyoyay.arrow.maze.overlapping.lines": {
 		"interCDTime": 30000,
 		"isAppOnline": true
 	},
-	"com.joyoyay.block.shooter.cube.pixel":{
+	"com.joyoyay.block.shooter.cube.pixel": {
 		"interCDTime": 30000,
 		"isAppOnline": true
 	},
-	"com.joyoyay.bean.sort.block.color":{
+	"com.joyoyay.bean.sort.block.color": {
+		"interCDTime": 30000,
+		"isAppOnline": true
+	},
+	"com.joyoyay.crush.arrows.line.maze": {
 		"interCDTime": 30000,
 		"isAppOnline": true
 	}
